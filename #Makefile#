@@ -1,4 +1,4 @@
-CF := -Wall -Werror 
+CF := -Wall -Werror
 CF_TEST := $(CF) -Isrc -Ithirdparty
 
 OBJ_DIR := build/src

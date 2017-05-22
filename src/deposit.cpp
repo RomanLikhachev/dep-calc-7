@@ -26,13 +26,13 @@ void proverkasrok ( int srok,  int  sum ){
    				      if (srok<=30) {
 	 				      sum1=sum-sum*(0.1);
 	 				      printsum(sum1,sum);
-	 	          	  } else if (srok >=31,srok<=120){
+	 	          	  } else if (srok >=31 && srok<=120){
 	 		                     sum1=sum+sum*(0.02);
 	 		                     printsum(sum1,sum);
-	 	 		      } else if (srok >=121,srok<=240){
+	 	 		      } else if (srok >=121 && srok<=240){
 	 						     sum1=sum+sum*(0.06);
 	 						     printsum(sum1,sum);
-	 	 		      } else if (srok >=241,srok<=365){
+	 	 		      } else if (srok >=241 && srok<=365){
 	 						     sum1=sum+sum*(0.12);
 	 						     printsum(sum1,sum);
 	 	 		      } else if (srok>365){
@@ -44,13 +44,13 @@ void proverkasrok ( int srok,  int  sum ){
 	 	 			  if (srok<=30) {
 	 					  sum1=sum-sum*(0.1);
 	 					  printsum(sum1,sum);
-	 	 			  } else if (srok>=31,srok<=120){
+	 	 			  } else if (srok>=31 && srok<=120){
 	 							 sum1=sum+sum*(0.03);
 	 							 printsum(sum1,sum);
-	 	 			  } else if (srok>=121,srok<=240){
+	 	 			  } else if (srok>=121 && srok<=240){
 	 							 sum1=sum+sum*(0.08);
 	 							 printsum(sum1,sum);
-	 	  			  } else if (srok>=241,srok<=365){
+	 	  			  } else if (srok>=241 &&srok<=365){
 	 							 sum1=sum+sum*(0.15);
 	 							 printsum(sum1,sum);
 	 	              }	else if (srok>365){
